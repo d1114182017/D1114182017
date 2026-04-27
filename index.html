@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>貪食蛇遊戲</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🐍 貪食蛇</h1>
+
+<div id="startScreen" class="screen active">
+    <p>方向鍵控制移動</p>
+    <button onclick="startGame()">開始遊戲</button>
+
+    <h3>排行榜</h3>
+    <div id="leaderboard"></div>
+</div>
+
+<div id="gameScreen" class="screen">
+    <h2>分數：<span id="score">0</span></h2>
+    <canvas id="game" width="400" height="400"></canvas>
+</div>
+
+<div id="gameOverScreen" class="screen">
+    <h1>💀 Game Over</h1>
+    <p>你的分數：<span id="finalScore"></span></p>
+    <button onclick="restart()">再玩一次</button>
+
+    <h3>排行榜</h3>
+    <div id="leaderboard2"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

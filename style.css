@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+canvas {
+    background: #000;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.screen {
+    display: none;
+}
+
+.active {
+    display: block;
+}
